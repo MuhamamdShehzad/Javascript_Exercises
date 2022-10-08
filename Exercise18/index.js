@@ -22,7 +22,7 @@ process.stdout.write(
 print_places(places);
 process.stdout.write('\nAfter alphabetically reverseing the array: ')
 temp_places.reverse();
-print(temp_places)
+print_places(temp_places)
 process.stdout.write("\n\nAfter reversing the orginal array: ");
 print_places(places.reverse());
 process.stdout.write(
