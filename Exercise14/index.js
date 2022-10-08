@@ -1,4 +1,4 @@
-const invitation_list = [
+export const invitation_list = [
   "Raja Muhammad Akbar",
   "Ammer Beghum",
   "Sardar Bano",
