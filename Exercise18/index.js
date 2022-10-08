@@ -20,8 +20,9 @@ process.stdout.write(
   "\n\nThe orignal array is same because I made another array to sort: "
 );
 print_places(places);
+process.stdout.write('\nAfter alphabetically reverseing the array: ')
 temp_places.reverse();
-print(temp_places.sort())
+print(temp_places)
 process.stdout.write("\n\nAfter reversing the orginal array: ");
 print_places(places.reverse());
 process.stdout.write(
